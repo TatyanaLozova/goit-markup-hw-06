@@ -1,4 +1,4 @@
-/*Домашнее задание 5*/
+/*Модальное окно*/
 .backdrop {
   position: fixed;
   top: 0px;
@@ -59,7 +59,6 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
 }
 
 	
-
 .active-link::after {
   display: flex;
   content: "";
@@ -72,27 +71,52 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
   transform: translateY(32px);
 
 }
-/*.active-link::after {
-  display: flex;
-  /* position: absolute; */
-  /*content: "";
-  left: 0px;
-  top: 40px;
-  height: 4px;
-  width: 100%;
-  border-radius: 2px;
-  background: #2196f3;
-  /* padding-bottom: 32px; */
-  /*transform: translateY(32px);
-  /* transform: translateY(900%);
-.menu-link {
-  position: relative;
-  display: inline-block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+.form-block{
+padding: 40px;
+
+
 }
 
+.form-title {
+
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+.form-field{
+  display: flex;
+  margin-bottom: 28px;
+  flex-direction: column;
+ 
+}
+.form-input{
+ 
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.form-lable{
+
+}
+
+.comment-textarea{
+padding: 12px;
+resize: none;
+width: 448px;
+height: 120px;
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+margin-bottom: 20px;
+}
 
 /*Домашнее задание 4*/
 
