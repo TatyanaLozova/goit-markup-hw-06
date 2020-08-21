@@ -33,6 +33,7 @@ border-radius: 4px;
   height: 11px;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .btn-close {
@@ -45,9 +46,15 @@ border-radius: 4px;
 	border-radius: 50%;
 	border: 1px solid gray;
   background-color: white;
+
+  
 }
 
-	
+.btn-close:focus {
+  outline: 0;
+  box-shadow: 0 0 1pt 1pt var(--accent-color);
+}
+
 .active-link::after {
   display: flex;
   content: "";
@@ -133,10 +140,21 @@ margin-bottom: 20px;
 
 
 
-.form-input:focus + .form-label {
+.form-label:focus + .form-input {
  color: #2196F3;
  }
 
+.form-field input:focus,
+.form-field input:hover,
+.form-field textarea:focus,
+.form-field textarea:hover {
+  outline-color: #2196F3;
+  color: #2196F3;
+}
+
+.form-field input:focus ~ .icon-modal{
+ fill: #2196F3;
+}
 
 .btn-modal{
 font-weight: bold;
@@ -173,10 +191,13 @@ border: transparent;
   fill:  #2196f3;
 }
 
+/*
 a {
   text-decoration:none;
-color: #000 
+color: #000;
 }
+*/
+
 /*Хедер*/
 .overlay {
 background-image: linear-gradient(
