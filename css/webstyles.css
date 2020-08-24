@@ -495,7 +495,7 @@ html {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  margin-bottom: 94px;
+
   /*outline: 2px solid #2196f3;*/
   
 }
@@ -838,6 +838,7 @@ color: var(--features-bg-color);
   display: flex;
   padding: 0;
   margin: 0;
+  margin-bottom: 94px;
   width: calc((1200 - 90px) / 4);
 
 
@@ -874,7 +875,7 @@ position: relative;
   display: flex;
   padding: 0;
   margin: 0;
-  
+  list-style: none;
   }
 
 .our-team li{
@@ -913,12 +914,19 @@ position: relative;
 }
 
   <!--Постоянные клиенты-->
-.regular-client {
+.clients {
    display: flex;
-   flex-wrap: wrap;
   padding: 0;
   margin: 0;
-
+ 
+  }
+  .client-section{
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 94px;
   }
 
 .clients-list {
@@ -951,7 +959,6 @@ position: relative;
   }
 
 .address {
-    margin-bottom: 60px;
      margin-top: 20px;
     list-style: none;
   color: var(--part-txt-color);
@@ -976,8 +983,6 @@ position: relative;
   justify-content: space-evenly;
   text-transform: uppercase;
   font-size: 14px;
-  margin-top: 72px;
-  margin-bottom: 20px;
 }
 
 .footer-social  {
