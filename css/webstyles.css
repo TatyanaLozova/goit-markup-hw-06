@@ -236,6 +236,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .menu-link:hover {
   color:  #2196f3;
   fill:  #2196f3;
+
 }
 
 /*
@@ -374,6 +375,8 @@ background-image: linear-gradient(
 .social:focus {
    background-color: var(--accent-color);
    color: #ffffff;
+   transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-social {
@@ -400,6 +403,8 @@ background-image: linear-gradient(
 .client-sprite:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-sprite {
@@ -438,6 +443,8 @@ border-radius: 0px 0px 4px 4px;}
 .soc-footer:hover,
 .soc-footer:focus {
 background-color: var(--accent-color);
+transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -613,7 +620,9 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14px;
 letter-spacing: 0.02em; 
-color: var(--sec-txt-color)
+color: var(--sec-txt-color);
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 .menu-contact li:nth-child(2n+0){
   margin-right: 0;
