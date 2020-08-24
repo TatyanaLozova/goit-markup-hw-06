@@ -81,6 +81,8 @@ border: 1px solid #EEEEEE;
 .soc-footer:hover,
 .soc-footer:focus {
 background-color: var(--accent-color);
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -264,12 +266,13 @@ h3 {
 .footer-social  {
   display: flex;
    list-style: none;
-
+  
 }
 .link-items:not(:last-child) {
     margin-right: 10px;
   }
 
+  
 
 :root {
    --main-txt-color: #212121;
@@ -353,10 +356,13 @@ font-size: 14px;
 line-height: 1.14px;
 letter-spacing: 0.02em; 
 color: var(--sec-txt-color);
+
   }
   .menu-item:focus,
   .menu-item:hover {
   color:  var(--accent-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
 .menu-link:focus,
@@ -381,6 +387,8 @@ padding-top: 6px;
     padding-right: 22px;
     padding-bottom: 6px;
     padding-left: 22px;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -504,6 +512,7 @@ line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--part-txt-color);
+
 }
 
 .aside {
@@ -527,6 +536,7 @@ color: var(--part-txt-color);
   border: transparent;
   border-radius: 4px;
   padding: 10px 32px;
+ 
 
 }
 
