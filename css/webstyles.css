@@ -799,10 +799,12 @@ text-decoration: none;
 }
 
 .contacts-item {
+  display: block;
   text-decoration: none;
   font-style: normal;
   list-style: none;
   color: rgba(255, 255, 255, 0.6);
+  margin-top: 9px;
 }
 
 .heder-social{
