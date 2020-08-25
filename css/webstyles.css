@@ -977,8 +977,7 @@ position: relative;
     list-style: none;
   color: var(--part-txt-color);
   list-style: none;
-  margin-top: 9px;
-  padding: 0;
+    padding: 0;
 }
 .block-padding{
   padding-left: 0;
@@ -988,7 +987,6 @@ position: relative;
 .address .contacts {
   color: var(--part-txt-color);
   list-style: none;
-  margin-top: 9px;
   padding: 0;
 }
 

@@ -243,6 +243,7 @@ h3 {
 }
 
 .address .contacts {
+  display: block;
   color: var(--part-txt-color);
   list-style: none;
   padding: 0;
@@ -496,11 +497,12 @@ color:var(--part-txt-color);
 }
 
 .contacts-item {
+  display: block;
   text-decoration: none;
     list-style: none;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
-  margin-top: 9px;
+  /*margin-top: 9px;*/
 }
 
 .heder-social{
