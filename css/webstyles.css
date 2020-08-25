@@ -868,6 +868,10 @@ color: var(--features-bg-color);
 
  /*<!--Чем мы занимаемся-->*/
 
+ .what-we-do{
+margin-bottom: 94px;
+ }
+
 .item {
 width: calc((100% - 60px) / 3);
 position: relative;
@@ -934,7 +938,7 @@ position: relative;
    display: flex;
   padding: 0;
   margin: 0;
- 
+  
   }
   .client-section{
     display: flex;
@@ -942,7 +946,7 @@ position: relative;
     padding: 0;
     margin: 0;
     list-style: none;
-    margin-bottom: 94px;
+ 
   }
 
 .clients-list {
@@ -959,6 +963,7 @@ position: relative;
 
 .footer {
   background-color: #2f303a;
+  margin-top: 94px;
   
 }
   
