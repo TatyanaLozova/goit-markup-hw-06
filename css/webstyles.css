@@ -17,10 +17,6 @@ html {
  box-sizing: inherit;
 }
 
-
-
-/*Шапка сайта*/
-
 body {
 font-family: "Roboto", sans-serif;
 font-style: normal;
@@ -28,9 +24,11 @@ font-weight: bold;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
-  background:var(--main-bg-color);
+background:var(--main-bg-color);
 
 }
+
+/*--Шапка сайта--*/
 
 .logo{
 font-family: "Raleway", sans-serif;
@@ -279,8 +277,6 @@ margin-bottom: 10px;
   margin: 0;
   margin-bottom: 94px;
   width: calc((1200 - 90px) / 4);
-
-
 }
 .features li {
    margin-right: 30px;
@@ -316,7 +312,6 @@ margin: 0;
 
  
  /*<!--Чем мы занимаемся-->*/
-/*чем мы занимаемся h3*/
 
 .heading-item {
   font-style: normal;
