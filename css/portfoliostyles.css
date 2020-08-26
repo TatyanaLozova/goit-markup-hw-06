@@ -185,8 +185,8 @@ h3 {
    
 .section {
   padding-bottom: 94px;
-  /*padding: 94px 0;
-  background-color: rgb(195, 226, 187); */
+    padding-top: 94px; 
+    border-top: 1px solid#ECECEC;
 }
 
 .container-filter {
@@ -293,13 +293,14 @@ body {
   color: var(--main-txt-color);
   background: var(--main-bg-color);
 }
-.caption {
+/*.caption {
   color: var(--part-txt-color);
   margin-bottom: 0px;
 margin-top: 0px;
 border-top: 1px solid#ECECEC;
 
-}
+}*/
+
 .logo{
 font-family: "Raleway", sans-serif;
 font-style: normal;
