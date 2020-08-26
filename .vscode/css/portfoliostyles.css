@@ -432,6 +432,7 @@ color: var(--part-txt-color);
   display: block;
   overflow: hidden;
 }
+
 .portfolio-link img{
   display: block;
 }
