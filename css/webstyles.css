@@ -178,7 +178,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: 94px;
+    padding-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
     height: 600px;
@@ -275,7 +275,8 @@ margin-bottom: 10px;
   display: flex;
   padding: 0;
   margin: 0;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   width: calc((1200 - 90px) / 4);
 }
 .features li {
@@ -335,9 +336,6 @@ margin: 0;
   margin: 0px;
    
   }  
- .what-we-do{
-margin-bottom: 94px;
- }
 
 .item {
 width: calc((100% - 60px) / 3);
@@ -350,7 +348,9 @@ position: relative;
   padding: 0;
   margin: 0;
   margin-bottom: 94px;
+ 
   }
+  
 .what li {
   margin-right: 30px;
 }
@@ -374,15 +374,13 @@ position: relative;
     
   .user{
    background:var(--features-bg-color);
-   padding-top: 94px;
-   margin-bottom: 94px;
    background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   margin-left: auto;
   margin-right: auto;
   height: 708px;
-  
+  padding-top: 94px;
   }
   
   .caption{
@@ -413,7 +411,7 @@ position: relative;
  /*flex-wrap: wrap;*/
   padding: 0;
   margin: 0;
-  padding-bottom: 94px;
+ 
 
   }
   
@@ -500,6 +498,8 @@ position: relative;
    display: flex;
   padding: 0;
   margin: 0;
+  padding-bottom: 94px;
+  padding-top: 94px;
   
   }
   .client-section{
@@ -542,7 +542,7 @@ position: relative;
   padding-top: 60px;
   padding-bottom: 60px;
   
-  margin-top: 94px;
+  
   
 }
   

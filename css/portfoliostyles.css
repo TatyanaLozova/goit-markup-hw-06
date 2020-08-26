@@ -184,7 +184,7 @@ h3 {
 }
    
 .section {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
   /*padding: 94px 0;
   background-color: rgb(195, 226, 187); */
 }
@@ -542,7 +542,6 @@ color: var(--part-txt-color);
  
 
 }
-
 
 .input-footer{
   
